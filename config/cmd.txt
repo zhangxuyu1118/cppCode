@@ -1,0 +1,48 @@
+https://blog.csdn.net/mrjkzhangma/article/details/89466811?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.pc_relevant_is_cache&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.pc_relevant_is_cache
+
+git clone https://github.com/zhangxuyu1118/cppCode.git
+ll
+git add 文件
+方法一 git add 添加多个文件，文件之间以空格隔开
+
+git add file1 file2 file3
+1
+方法二 多次git add
+
+git add file1
+git add file2
+git add file2
+1
+2
+3
+方法三 添加指定目录下的文件
+config目录下及子目录下所有文件，home目录下的所有.php文件
+
+git config/*
+git home/*.php
+1
+2
+方法四 git add . 添加所有的文件， 或者 git add --all 添加所有的文件
+
+git add .
+git add --all
+1
+2
+git add 文件夹
+git add 文件夹名
+
+git commit 提交到版本库
+git add 目的是将修改文件由工作区提交到暂存区，可以多次提交
+然后commit操作，将文件从暂存区提交到版本库
+
+git commit -m "add new file"
+
+1.git init
+2.git config user.name "zhangxuyu1118"
+3.git config user.email "zhangxuyu1118@126.com"
+4.git add *
+5.git commit -m "some init msg"
+*** Please tell me who you are.
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
